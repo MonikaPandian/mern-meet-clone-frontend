@@ -45,13 +45,13 @@ const CallPageFooter = ({ isPresenting, stopScreenShare, screenShare, isAudio, t
                 <div className={`icon-block ${!isVideo ? "red-bg" : null}`}>
                     <FontAwesomeIcon className="icon" icon={isVideo ? faVideo : faVideoSlash} onClick={() => toggleVideo(!isVideo)} />
                 </div>
-                <div className="icon-block">
+                {/* <div className="icon-block">
                     {isPresenting ? (
                         <FontAwesomeIcon className="icon" icon={faLaptop} onClick={stopScreenShare} />
                     ) : (
                         <FontAwesomeIcon className="icon" icon={faLaptop} onClick={screenShare} />
                     )}
-                </div>
+                </div> */}
             </div>
             <div className="right-item">
 
